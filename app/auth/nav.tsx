@@ -4,9 +4,9 @@ import Login from "./login";
 
 export default async function Nav(){
     return(
-        <nav>
+        <nav className=" flex justify-between items-center py-8">
             <Link href={"/"}>
-            <h1>Send It</h1>
+            <h1 className="font-bolt text-lg">Send It</h1>
             </Link>
             <ul>
                 <Login />
