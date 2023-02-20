@@ -8,7 +8,7 @@ export default async function Nav(){
             <Link href={"/"}>
             <h1 className="font-bolt text-lg">Send It</h1>
             </Link>
-            <ul>
+            <ul className="flex items-center gap-6 ">
                 <Login />
             </ul>
         </nav>
