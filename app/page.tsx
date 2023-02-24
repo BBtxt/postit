@@ -1,9 +1,12 @@
+"use client"
+
+import AddPost from './components/Addpost'
 
 
 export default function Home() {
   return (
     <main>
-      <h1 className="text-bold flex justify-center">hello</h1>
+      < AddPost />
     </main>
   )
 }
