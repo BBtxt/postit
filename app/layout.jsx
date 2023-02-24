@@ -15,8 +15,8 @@ export default function RootLayout({ children }) {
         <head /> will contain the components returned by the nearest parent
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
-      <head />
       <Nav />
+      <head />
       <body className={`mx-4 md:mx-48 xl:mx-96 ${roboto.variable} bg-slate-400`}>
         {children}
       </body>
